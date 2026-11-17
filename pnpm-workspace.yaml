@@ -1,0 +1,10 @@
+overrides:
+  "@cloudflare/vitest-plugin>miniflare": 5.20261117.0-beta
+  "wrangler>miniflare": 5.20261117.0-beta
+  "wrangler>workerd": 1.20261117.1
+
+allowBuilds:
+  esbuild: false
+  workerd: false
+
+minimumReleaseAge: 0

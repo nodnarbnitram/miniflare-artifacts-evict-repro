@@ -1,0 +1,11 @@
+{
+	"name": "artifacts-dispose-repro",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-09-03",
+	"compatibility_flags": ["nodejs_compat"],
+	"durable_objects": {
+		"bindings": [{ "name": "HOLDER", "class_name": "Holder" }],
+	},
+	"migrations": [{ "tag": "v1", "new_sqlite_classes": ["Holder"] }],
+	"artifacts": [{ "binding": "ARTIFACTS", "namespace": "repro" }],
+}
